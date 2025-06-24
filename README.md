@@ -1,6 +1,8 @@
 # Graph Neural Network Generalization With Gaussian Mixture Model Based Augmentation (GRATIN)
 
-
+<p align="center">
+  <img src="GRATIN_Diagram.pdf" alt="Project banner">
+</p>
 
 ## Citing: 
 If you find this work interesting or helpful for your research, please consider citing this paper and give your star
