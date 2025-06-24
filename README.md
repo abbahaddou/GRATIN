@@ -2,7 +2,8 @@
 
 
 
-## Citing: Please remember to cite our paper:
+## Citing: 
+If you find this work interesting or helpful for your research, please consider citing this paper and give your star
 
 ```bibtex
 @inproceedings{
@@ -13,3 +14,9 @@ booktitle={Forty-second International Conference on Machine Learning},
 year={2025},
 url={https://openreview.net/forum?id=JCKkum1Qye}
 }
+
+
+## ✉️ Contact
+
+Have questions or want to collaborate?  
+Email me at <yassine.abbahaddou@polytechnique.edu> 
