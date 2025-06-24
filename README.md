@@ -3,11 +3,11 @@
 ## Citing:
 
 ```bibtex
-@software{yourname_projectname_2025,
-  author  = {Your Name and Collaborator},
-  title   = {Your-Project-Name},
-  version = {v1.0.0},
-  date    = {2025-06-24},
-  doi     = {10.5281/zenodo.1234567},
-  url     = {https://github.com/username/project}
+@inproceedings{
+abbahaddou2025graph,
+title={Graph Neural Network Generalization With Gaussian Mixture Model Based Augmentation},
+author={Yassine ABBAHADDOU and Fragkiskos D. Malliaros and Johannes F. Lutzeyer and Amine M. Aboussalah and Michalis Vazirgiannis},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=JCKkum1Qye}
 }
