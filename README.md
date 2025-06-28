@@ -14,7 +14,7 @@ Yassine Abbahaddou, Fragkiskos D. Malliaros  , Johannes F. Lutzeyer, Amine M. Ab
 
 ---
 ## 🖼️ Method Diagram
-![GRATIN Method Overview](Assets/GRATIN_Diagram.png)
+![GRATIN Method Overview](Asset/GRATIN_Diagram.png)
 
 ---
 ## 🚀 Run the Code
