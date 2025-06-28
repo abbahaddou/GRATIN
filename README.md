@@ -21,25 +21,22 @@ Yassine Abbahaddou, Fragkiskos D. Malliaros  , Johannes F. Lutzeyer, Amine M. Ab
 Follow these steps to run GRATIN augmentation method:
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/<your-org>/gratin.git
-cd gratin
+# 1. Clone the repo and jump into the source directory
+git clone https://github.com/abbahaddou/GRATIN.git
+cd GRATIN/Code
 
-# 2. (Recommended) create a fresh virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+# 2. Baseline training (no augmentation)
+python first_train.py \
+    --data IMDB-BINARY \
+    --model GCN
 
-# 3. Install Python dependencies
-pip install -r requirements.txt
+# 3. Augment graphs, retrain the post‑readout head, and evaluate
+python fit_GMM.py \
+    --data IMDB-BINARY \
+    --model GCN
 
-# 4. Train GRATIN on the default dataset
-python main.py --config configs/default.yaml
-
-# 5. Evaluate a pretrained checkpoint
-python main.py --mode eval --checkpoint checkpoints/best.ckpt
-
-# 6. (Optional) run the unit tests
-pytest
+# Example: run on a different dataset/backbone
+# python first_train.py --data PROTEINS --model GIN
 ```
 ## Citing
 If you find this work interesting or helpful for your research, please consider citing this paper and give your star
