@@ -37,6 +37,7 @@ python fit_GMM.py \
 
 # Example: run on a different dataset/backbone
 # python first_train.py --data PROTEINS --model GIN
+# python fit_GMM.py --data PROTEINS --model GIN
 ```
 ## Citing
 If you find this work interesting or helpful for your research, please consider citing this paper and give your star
