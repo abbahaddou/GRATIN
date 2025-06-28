@@ -1,6 +1,6 @@
 # Graph Neural Network Generalization With Gaussian Mixture Model Based Augmentation (GRATIN)
 
-**_[ICML 2025]_**  This repository accompanies our paper accepted to the *Forty-second International Conference on Machine Learning (ICML 2025).*  
+**_[ICML 2025]_**  This repository contains the implementation code of our paper accepted to the *Forty-second International Conference on Machine Learning (ICML 2025).*  
 📄 **Read the paper on OpenReview → [Graph Neural Network Generalization With Gaussian Mixture Model Based Augmentation](https://openreview.net/forum?id=JCKkum1Qye)**
 
 ---
