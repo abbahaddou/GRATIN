@@ -16,7 +16,31 @@ Yassine Abbahaddou, Fragkiskos D. Malliaros  , Johannes F. Lutzeyer, Amine M. Ab
 ## 🖼️ Method Diagram
 ![GRATIN Method Overview](GRATIN_Diagram.png)
 
+---
+## 🚀 Quick Start
+In a hurry? Follow these steps to get GRATIN up and running:
 
+```bash
+# 1. Clone the repo
+git clone https://github.com/<your-org>/gratin.git
+cd gratin
+
+# 2. (Recommended) create a fresh virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# 3. Install Python dependencies
+pip install -r requirements.txt
+
+# 4. Train GRATIN on the default dataset
+python main.py --config configs/default.yaml
+
+# 5. Evaluate a pretrained checkpoint
+python main.py --mode eval --checkpoint checkpoints/best.ckpt
+
+# 6. (Optional) run the unit tests
+pytest
+```
 ## Citing
 If you find this work interesting or helpful for your research, please consider citing this paper and give your star
 
