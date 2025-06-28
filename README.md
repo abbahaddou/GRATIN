@@ -1,6 +1,6 @@
 # Graph Neural Network Generalization With Gaussian Mixture Model Based Augmentation (GRATIN)
 
-**_[ICML 2025]_**  This repository contains the implementation code of our paper accepted to the *Forty-second International Conference on Machine Learning (ICML 2025).*  
+**_[ICML 2025]_**  This repository contains the Pytorch implementation code of our paper accepted to the *Forty-second International Conference on Machine Learning (ICML 2025).*  
 📄 **Read the paper on OpenReview → [Graph Neural Network Generalization With Gaussian Mixture Model Based Augmentation](https://openreview.net/forum?id=JCKkum1Qye)**
 
 ## 👥 Authors
@@ -17,8 +17,8 @@ Yassine Abbahaddou, Fragkiskos D. Malliaros  , Johannes F. Lutzeyer, Amine M. Ab
 ![GRATIN Method Overview](GRATIN_Diagram.png)
 
 ---
-## 🚀 Quick Start
-In a hurry? Follow these steps to get GRATIN up and running:
+## 🚀 Run the Code
+Follow these steps to run GRATIN augmentation method:
 
 ```bash
 # 1. Clone the repo
