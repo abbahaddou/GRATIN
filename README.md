@@ -35,7 +35,7 @@ python fit_GMM.py \
     --data IMDB-BINARY \
     --model GCN
 
-# Example: run on a different dataset/backbone
+# You can also run the code on a different dataset/backbone
 # python first_train.py --data PROTEINS --model GIN
 # python fit_GMM.py --data PROTEINS --model GIN
 ```
