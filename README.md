@@ -25,12 +25,12 @@ Follow these steps to run GRATIN augmentation method:
 git clone https://github.com/abbahaddou/GRATIN.git
 cd GRATIN/Code
 
-# 2. Baseline training (no augmentation)
+# 2. Step 1:  Training the Message Passing Layer with No Augmentations
 python first_train.py \
     --data IMDB-BINARY \
     --model GCN
 
-# 3. Augment graphs, retrain the post‑readout head, and evaluate
+# 3. Step 2: Augment Graphs, Retrain the Post‑Readout Function, and Evaluate
 python fit_GMM.py \
     --data IMDB-BINARY \
     --model GCN
