@@ -40,7 +40,7 @@ python fit_GMM.py \
 # python fit_GMM.py --data PROTEINS --model GIN
 ```
 ## Citing
-If you find this work interesting or helpful for your research, please consider citing this paper and give your star
+If you find this work interesting or helpful for your research, please consider citing this paper
 
 ```bibtex
 @inproceedings{
